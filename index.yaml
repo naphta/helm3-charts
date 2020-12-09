@@ -372,6 +372,34 @@ entries:
   nexus-repository-manager:
   - apiVersion: v2
     appVersion: 3.29.0
+    created: "2020-12-09T23:18:49.051921902Z"
+    description: Sonatype Nexus Repository Manager - Universal Binary repository
+    digest: 04953ceed03942a6744de3094d3f7974f088a26dcafee01cf919f681806d0c72
+    home: https://www.sonatype.com/nexus-repository-oss
+    icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
+    keywords:
+    - artifacts
+    - dependency
+    - management
+    - sonatype
+    - nexus
+    - repository
+    - quickstart
+    - ci
+    - repository-manager
+    - nexus3
+    maintainers:
+    - email: support@sonatype.com
+      name: Sonatype
+    name: nexus-repository-manager
+    sources:
+    - https://github.com/sonatype/nexus-public
+    type: application
+    urls:
+    - https://github.com/sonatype/helm3-charts/releases/download/nexus-repository-manager-29.1.0/nexus-repository-manager-29.1.0.tgz
+    version: 29.1.0
+  - apiVersion: v2
+    appVersion: 3.29.0
     created: "2020-12-05T21:15:29.794980352Z"
     description: Sonatype Nexus Repository Manager - Universal Binary repository
     digest: 3339b59fd1fe7a627ce0f8ce1fe4174cf87ad1cc91948d848a7f382df1ff9272
